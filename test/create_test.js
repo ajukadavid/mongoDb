@@ -6,5 +6,6 @@ describe("Create the first data", () => {
         const jason = new Student({
             name: "Jason"
         })
+        jason.save()
     })
 })
